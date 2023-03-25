@@ -24,6 +24,17 @@ _Untuk perintah yang dibungkus < > maka perintah tersebut diganti sesuai instruk
   ```
 - Di dalam folder NIM kalian buat folder dengan nama "Pertemuan_<_no_pertemuan_>" tanpa tanda kutip. contoh: Pertemuan_1
 - Di dalam folder pertemuan tersebut, kalian menambahkan file tugas praktikum yang telah kalian kerjakan dengan format nama file "Assignment_<_no pertemuan_>_<_no_soal_>.java" tanpa tanda kutip. Contoh: Assignment_1_1.java
+- Perhatikan bahwa disetiap filenya kalian harus menambahkan packagenya di awal file tersebut. Dimana nama package nantinya harus sesuai dengan folder dimana file tersebut berada di dalma folder `src`.
+Contoh:
+```
+package H071191002.Pertemuan_1
+
+public class Main{
+  ....
+  ...
+}
+```
+berarti file di atas berada di folder `src/H071191002/Pertemuan_1`
 - Setelah semua file tugas telah diselesaikan dan telah diasistensikan lakukan perintah berikut
   ```
   git add .
