@@ -34,7 +34,7 @@ public class Main{
   ...
 }
 ```
-berarti file di atas berada di folder `src/H071191002/Pertemuan_1`
+berarti file di atas berada di folder `src/H071191002/Pertemuan_1`. Untuk contoh detailnya bisa dilihat di file `src/H071191002/Pertemuan_1/Main.java` dan `src/H071191002/Pertemuan_1/my_package/Person.java`
 - Setelah semua file tugas telah diselesaikan dan telah diasistensikan lakukan perintah berikut
   ```
   git add .
