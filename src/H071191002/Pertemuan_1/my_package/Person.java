@@ -1,3 +1,7 @@
+// Nama package dibawah ini mengikuti nama folder dalam folder src
+// Sehingga folder dari file ini adalah H071191002/Pertemuan_1/my_package
+// Disini kita menggunakan huruf kecil untuk folder my_package untuk mengikuti best practice dari penamaan packagenya
+// Lebih lanjut bisa dibaca komentar di file H071191002/Pertemuan_1/Main.java
 package H071191002.Pertemuan_1.my_package;
 
 public class Person {
