@@ -5,6 +5,8 @@ Repository tempat pengumpulan tugas untuk Praktikan Asistensi J Lab OOP Sistem I
 **Note:**  
 _Untuk perintah yang dibungkus < > maka perintah tersebut diganti sesuai instruksi yang ada dalam tanda < > tersebut. Contohnya `mkdir <NIM>` menjadi `mkdir H071191002`_
 - Silahkan fork repositori ini
+- Pada halaman fork, pastikan untuk mencentang 'Copy the `main` branch only'
+![sedikit catatan fork](https://i.ibb.co/sR4TK5R/a-little-note-about-forking.png)
 - Lakukan clone terhadap hasil fork repository ini ke komputer kalian
   ```
   git clone <url-repositori-hasil-fork>
