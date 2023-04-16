@@ -1,4 +1,4 @@
-package H071211014.Pertemuan_2;
+package Pertemuan_2;
 public class Alamat {
     String jalan;
     String kota;

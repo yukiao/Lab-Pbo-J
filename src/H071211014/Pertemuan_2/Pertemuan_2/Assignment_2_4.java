@@ -1,3 +1,4 @@
+package Pertemuan_2;
 public class Assignment_2_4 {
     public static void main(String[] args) {
         Cuboid cuboid = new Cuboid();

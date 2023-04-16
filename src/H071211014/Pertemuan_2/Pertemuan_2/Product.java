@@ -1,3 +1,4 @@
+package Pertemuan_2;
 public class Product {
     String id;
     String nama;

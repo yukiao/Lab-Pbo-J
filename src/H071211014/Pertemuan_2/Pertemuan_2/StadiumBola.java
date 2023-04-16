@@ -1,3 +1,5 @@
+package Pertemuan_2;
+
 
 public class StadiumBola { 
     String namaStadium;
