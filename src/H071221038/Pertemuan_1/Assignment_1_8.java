@@ -27,5 +27,4 @@ public class Assignment_1_8 {
             System.out.println("Inputan tidak sesuai");
         }
     }
-
 }

@@ -1,5 +1,4 @@
 package H071221038.Pertemuan_1;
-
 import java.util.Scanner;
 
 public class Assignment_1_3 {

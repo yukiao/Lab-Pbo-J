@@ -20,18 +20,14 @@ public class Assignment_1_2 {
                 } else {
                     panjangBulat += 1;
                 }
-
             }
             System.out.printf("%d Bilangan Bulat \n%d Bilangan Desimal\n", panjangBulat, panjangDesimal);
             sc.close();
-
         } catch (Exception e) {
             System.out.println("Inputan Bukan angka");
 
         } finally {
             System.out.println("Program selesai");
-
         }
     }
-
 }
