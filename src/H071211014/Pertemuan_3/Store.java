@@ -1,4 +1,7 @@
+package Pertemuan_3;
 import java.util.ArrayList;
+
+import H071211014.Pertemuan_2.Product;
 
 public class Store {
     String name; 

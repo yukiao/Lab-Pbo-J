@@ -1,3 +1,4 @@
+package Pertemuan_3;
 public class KlubBola {
     String nama;
     String kota; 

@@ -1,3 +1,4 @@
+package Pertemuan_3;
 public class User {
     String name; 
     int balance; 

@@ -1,3 +1,4 @@
+package Pertemuan_3;
 public class Player {
     private String name;
     private int hp = 100;

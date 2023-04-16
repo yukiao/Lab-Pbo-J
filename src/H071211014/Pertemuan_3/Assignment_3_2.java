@@ -1,3 +1,4 @@
+package Pertemuan_3;
 public class Assignment_3_2 {
     public static void main(String[] args) {
         

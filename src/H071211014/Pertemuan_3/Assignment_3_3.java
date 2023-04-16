@@ -1,4 +1,7 @@
+package Pertemuan_3;
 import java.util.Scanner;
+
+import H071211014.Pertemuan_2.Product;
 
 public class Assignment_3_3 {
     public static void main(String[] args) {
