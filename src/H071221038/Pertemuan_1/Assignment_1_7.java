@@ -1,4 +1,5 @@
 package H071221038.Pertemuan_1;
+
 import java.util.Scanner;
 
 public class Assignment_1_7 {
@@ -11,14 +12,15 @@ public class Assignment_1_7 {
 
         sc.close();
     }
+
     public static int findIndex(String teks) {
-        String arrNegara[] = {"Indonesia", "Argentina", "Portugal", "Prancis", "Inggris"};
-        for (int i = 0; i < arrNegara.length; i++){
+        String arrNegara[] = { "Indonesia", "Argentina", "Portugal", "Prancis", "Inggris" };
+        for (int i = 0; i < arrNegara.length; i++) {
             if (arrNegara[i].equalsIgnoreCase(teks)) {
-                return i ;
+                return i;
             }
         }
         return -1;
-    } 
-    
+    }
+
 }
