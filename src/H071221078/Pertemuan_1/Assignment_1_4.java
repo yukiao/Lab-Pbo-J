@@ -5,14 +5,13 @@ import java.util.Scanner;
 public class Assignment_1_4 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-
         System.out.print("Masukkan kata atau kalimat: ");
         String kata = input.nextLine();
         input.close();
 
         perbaikiPenulisan(kata);
     }
-
+    
     public static void perbaikiPenulisan(String kata) {
         String[] arrayKata = kata.split(" ");
 

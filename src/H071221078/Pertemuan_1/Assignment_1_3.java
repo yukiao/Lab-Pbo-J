@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Assignment_1_3 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
+
         try {
             System.out.print("Nama : ");
             String Name = input.nextLine();
@@ -26,3 +27,4 @@ public class Assignment_1_3 {
 
     }
 }
+

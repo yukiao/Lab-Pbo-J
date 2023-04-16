@@ -7,7 +7,7 @@ public class Assignment_1_5 {
         Scanner input = new Scanner(System.in);
         String tanggal = input.nextLine();
         input.close();
-
+        
         konversiFormatTanggal(tanggal);
     }
 
