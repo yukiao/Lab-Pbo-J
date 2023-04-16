@@ -10,9 +10,7 @@ public class Assignment_1_6 {
             System.out.print("Jari-Jari = ");
             double radius = input.nextDouble();
             double circleArea = Math.PI * Math.pow(radius, 2);
-            
-            System.out.printf("Luas lingkaran adalah "+ "%.2f", circleArea);
-
+            System.out.printf("Luas lingkaran adalah " + "%.2f", circleArea);
         } catch (Exception e) {
             System.out.println("Jari-jari hanya menerima inputan angka");
         } finally {

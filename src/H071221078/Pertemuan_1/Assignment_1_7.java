@@ -13,16 +13,16 @@ public class Assignment_1_7 {
         if (index == -1) {
             System.out.println("Negara tidak ditemukan");
         } else {
-            System.out.println("Negara ditemukan pada indeks "+ index);
-        }      
+            System.out.println("Negara ditemukan pada indeks " + index);
+        }
     }
-    
+
     public static int findIndex(String text) {
-        String[] country = {"Indonesia", "India", "Turkiye", "Saudi Arabia", "Australia"};
+        String[] country = { "Indonesia", "India", "Turkiye", "Saudi Arabia", "Australia" };
         for (int j = 0; j < country.length; j++) {
             if (country[j].equalsIgnoreCase(text)) {
                 return j;
-            } 
+            }
         }
         return -1;
     }
