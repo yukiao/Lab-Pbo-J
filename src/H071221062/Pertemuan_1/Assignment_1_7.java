@@ -36,5 +36,4 @@ public class Assignment_1_7 {
         }
         return -1; // mengembalikan nilai -1 jika tidak sama
     }
-
 }
