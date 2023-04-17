@@ -1,4 +1,4 @@
-package Pertemuan_3;
+package H071211014.Pertemuan_3;
 public class Stadium    {
     String nama;
     String lokasi;

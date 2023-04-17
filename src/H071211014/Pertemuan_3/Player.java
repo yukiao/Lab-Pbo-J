@@ -1,4 +1,4 @@
-package Pertemuan_3;
+package H071211014.Pertemuan_3;
 public class Player {
     private String name;
     private int hp = 100;

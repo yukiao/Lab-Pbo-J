@@ -1,4 +1,4 @@
-package Pertemuan_2;
+package H071211014.Pertemuan_2;
 public class Assignment_2_4 {
     public static void main(String[] args) {
         Cuboid cuboid = new Cuboid();
