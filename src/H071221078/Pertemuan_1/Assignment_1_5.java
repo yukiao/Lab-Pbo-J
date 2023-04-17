@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Assignment_1_5 {
     public static void main(String[] args) {
-        Scanner input = new Scanner (System.in);
+        Scanner input = new Scanner(System.in);
         String tanggal = input.nextLine();
         input.close();
         
@@ -57,9 +57,9 @@ public class Assignment_1_5 {
 
         int tahun = Integer.parseInt(tanggal.substring(6));
         if (tahun <= 23) {
-            System.out.print(" 20"+ tahun);
+            System.out.print(" 20" + tahun);
         } else {
-            System.out.print(" 19"+ tahun);
+            System.out.print(" 19" + tahun);
         }
     }
 }
