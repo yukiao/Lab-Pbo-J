@@ -3,7 +3,7 @@ package H071221090.Pertemuan_4;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Main {
+public class Assignment_4_1 {
     private static ArrayList<User> listUser = new ArrayList<>();
     private static ArrayList<Profile> listUserProfile = new ArrayList<>();
     private static Scanner sc = new Scanner(System.in);
@@ -81,7 +81,7 @@ public class Main {
             boolean isPasswordMatch = listUser.get(userIndex).getPassword().equals(password);
             if (isPasswordMatch) {
                 System.out.println("Berhasil Login");
-                Main.showDetailUser(listUserProfile.get(userIndex));
+                Assignment_4_1.showDetailUser(listUserProfile.get(userIndex));
                 /*
                  * panggil method showDetailUser dan kirimkan data Profile User yang login
                  * 
