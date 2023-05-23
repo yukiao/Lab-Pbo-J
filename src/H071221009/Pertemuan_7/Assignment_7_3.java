@@ -7,7 +7,7 @@ interface Food {
     int getPrice();
 }
 
-public class FoodFactory {
+class FoodFactory {
     public static Food getFood(String foodType) throws IllegalArgumentException {
         switch(foodType) {
             case "burger":
@@ -73,7 +73,7 @@ class Restaurant {
     }
 }
 
-class Main1 {
+public class Assignment_7_3 {
     public static void main(String[] args) {
 
         Food burger = FoodFactory.getFood("burger");

@@ -1,6 +1,6 @@
 package H071221009.Pertemuan_7;
 
-public class Product<T> {
+class Product<T> {
     private String name;
     private T price;
     private String expiryDate;
@@ -22,7 +22,9 @@ public class Product<T> {
     public String getExpiryDate() {
         return expiryDate;
     }
+}
 
+public class Assignment_7_2 {
     public static void main(String[] args) {
         Product<Integer> product1 = new Product<>("Kinder Joy", 10000, "2023-05-01");
         String name1 = product1.getName();

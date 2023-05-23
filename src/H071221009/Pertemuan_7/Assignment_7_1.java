@@ -58,7 +58,7 @@ class Mage extends Character {
     }
 }
 
-class Main {
+public class Assignment_7_1 {
     public static void main(String[] args) {
         Character[] character = new Character[5];
         character[0] = new Fighter("Jin", 50);
