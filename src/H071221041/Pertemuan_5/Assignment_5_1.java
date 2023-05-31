@@ -6,7 +6,7 @@ public class Assignment_5_1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        while (true){
+        while (true) {
             System.out.println("=".repeat(20));
             System.out.println(" ".repeat(3) + "Tampilan Menu");
             System.out.println("=".repeat(20));
@@ -29,7 +29,7 @@ public class Assignment_5_1 {
             int pilihan = sc.nextInt();
             sc.nextLine();
 
-            switch(pilihan){
+            switch (pilihan) {
                 case 1:
                     System.out.print("Input sisi kubus: ");
                     Kubus kubus = new Kubus(sc.nextDouble());
@@ -63,7 +63,8 @@ public class Assignment_5_1 {
                     System.out.print("Input Jari-jari tabung: ");
                     double jarijari = sc.nextDouble();
                     System.out.print("Input tinggi: ");
-                    double tinggi = sc.nextDouble();;
+                    double tinggi = sc.nextDouble();
+                    ;
                     Tabung tabung = new Tabung(jarijari, tinggi);
                     System.out.println("Luas Permukaan Tabung: " + tabung.menghitungLuasPermukaan());
                     System.out.println("Volume Tabung: " + tabung.menghitungVolume());
@@ -122,18 +123,19 @@ public class Assignment_5_1 {
                     double sisiDTrapesium = sc.nextDouble();
                     System.out.print("Input tinggi: ");
                     double tinggiTrapesium = sc.nextDouble();
-                    Trapesium trapesium = new Trapesium(tinggiTrapesium, sisiATrapesium, sisiBTrapesium, sisiCTrapesium, sisiDTrapesium);
+                    Trapesium trapesium = new Trapesium(tinggiTrapesium, sisiATrapesium, sisiBTrapesium, sisiCTrapesium,
+                            sisiDTrapesium);
                     System.out.println("Luas Trapesium: " + trapesium.menghitungLuas());
                     System.out.println("Keliling Trapesium: " + trapesium.menghitungKeliling());
                     System.out.println("-".repeat(20));
                     break;
-                
-                    case 10:
+
+                case 10:
                     System.out.println("Keluar");
                     sc.close();
                     System.exit(0);
                     break;
-    
+
                 default:
                     System.out.println("Pilihan tidak valid");
                     break;

@@ -1,0 +1,104 @@
+.root{
+    -fx-background-color:rgb(252, 237, 237);
+}
+.custom-button {
+    -fx-background-color: rgb(183, 183, 233);
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-border-color: rgb(145, 145, 240);
+    -fx-text-fill: black;
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 20px;
+    -fx-min-width: 200px;
+    -fx-min-height: 50px;
+}
+
+.custom-scene2{
+    -fx-background-color: rgb(145, 175, 244);
+    -fx-background-radius: 10px;
+    -fx-border-color: rgb(246, 181, 77);
+    -fx-border-radius: 10px;
+    -fx-text-fill: black;
+    -fx-font-size: 15px;
+    -fx-min-width: 200;
+    -fx-min-height: 50px;
+    -fx-font-family: "Times New Roman";
+}
+
+.labelKalkulator{
+    -fx-padding: 24px,0px,0px,0px;
+    -fx-text-fill: black;
+    -fx-font-family: "Times New Roman";
+}
+
+.custom-back{
+    -fx-background-color: rgb(246, 181, 77);
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-border-color: rgb(145, 175, 244);
+    -fx-text-fill: black;
+    -fx-font-size: 15px;
+    -fx-min-width: 200;
+    -fx-min-height: 50px;
+    -fx-font-family: "Times New Roman";
+}
+
+.custom-clear{
+    -fx-background-color: rgb(184, 206, 238);
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-border-color: rgb(246, 181, 77);
+    -fx-text-fill: black;
+    -fx-font-size: 15px;
+    -fx-min-width: 200;
+    -fx-min-height: 50px;
+    -fx-font-family: "Times New Roman";
+}
+
+.custom-dasar{
+    -fx-background-color: rgb(244, 186, 186);
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-border-color: rgb(246, 116, 77);
+    -fx-text-fill: black;
+    -fx-font-size: 15px;
+    -fx-min-width: 45px;
+    -fx-min-height: 45px;
+    -fx-font-family: "Times New Roman";
+}
+
+.custom-bangunRuang{
+    -fx-background-color: rgb(178, 198, 243);
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-border-color: rgb(246, 181, 77);
+    -fx-text-fill: black;
+    -fx-font-size: 15px;
+    -fx-min-width: 200;
+    -fx-min-height: 50px;
+    -fx-font-family: "Times New Roman";
+}
+
+.custom-bangunDatar{
+    -fx-background-color: rgb(178, 198, 243);
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-border-color: rgb(246, 181, 77);
+    -fx-text-fill: black;
+    -fx-font-size: 15px;
+    -fx-min-width: 200;
+    -fx-min-height: 50px;
+    -fx-font-family: "Times New Roman";
+}
+
+.custom-voluke{
+    -fx-background-color: rgb(229, 244, 171);
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-border-color: rgb(202, 247, 22);
+    -fx-text-fill: black;
+    -fx-font-size: 15px;
+    -fx-min-width: 100;
+    -fx-min-height: 50px;
+    -fx-font-family: "Times New Roman";
+}
