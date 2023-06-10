@@ -96,8 +96,8 @@ public class Assignment_5_1 {
                 double sisi3 = input.nextDouble();
                 
                 Segitiga segitiga = new Segitiga(sisi1, sisi2, sisi3);
-                System.out.printf("\nKeliling  : %.3f m" + segitiga.keliling());
-                System.out.printf("\nLuas      : %.3f m^2" + segitiga.luas());
+                System.out.printf("\nKeliling  : %.3f m" , segitiga.keliling());
+                System.out.printf("\nLuas      : %.3f m^2" , segitiga.luas());
                 break;
 
             case "trapesium":
