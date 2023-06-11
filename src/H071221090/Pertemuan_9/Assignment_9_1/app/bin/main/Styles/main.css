@@ -1,0 +1,66 @@
+.tKal {
+    -fx-background-color: rgb(210, 252, 0);
+    -fx-text-fill: "#323232";
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-min-width: 171px;
+    -fx-min-height: 45px;
+    -fx-background-radius: 42px;
+}
+
+.tBack {
+    -fx-background-color: rgb(255, 123, 0);
+    -fx-text-fill: "#323232";
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-min-width: 100px;
+    -fx-min-height: 30px;
+    -fx-background-radius: 42px;
+}
+
+.tCelcius {
+    -fx-text-fill: white;
+    -fx-font-size: 18px;
+}
+
+.title {
+    -fx-fill: white;
+    -fx-font-size: 35px;
+    -fx-font-weight: bold;
+}
+
+.title2 {
+    -fx-fill: white;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+
+#background {
+    -fx-background-color: black;
+}
+
+.Inputan {
+    -fx-min-width: 171px;
+    -fx-min-height: 38px;
+    -fx-background-radius: 42px;
+}
+
+.tButton {
+    -fx-background-color: white;
+    -fx-text-fill: "#323232";
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-min-width: 100px;
+    -fx-min-height: 30px;
+    -fx-background-radius: 42px;
+}
+
+.tMenu {
+    -fx-background-color: orange;
+    -fx-text-fill: "#323232";
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-min-width: 171px;
+    -fx-min-height: 38px;
+    -fx-background-radius: 42px;
+}
