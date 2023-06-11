@@ -1,0 +1,36 @@
+.tMulai {
+    -fx-background-color: rgb(255, 94, 0);
+    -fx-text-fill: "#323232";
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-min-width: 171px;
+    -fx-min-height: 38px;
+    -fx-background-radius: 42px;
+}
+
+.tKal1 {
+    -fx-background-color: white;
+    -fx-text-fill: "#323232";
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-min-width: 171px;
+    -fx-min-height: 38px;
+    -fx-background-radius: 42px;
+}
+
+.title {
+    -fx-fill: white;
+    -fx-font-size: 35px;
+    -fx-font-weight: bold;
+}
+
+.title2 {
+    -fx-fill: black;
+    -fx-font-size: 35px;
+    -fx-font-weight: bold;
+}
+
+#background {
+    -fx-background-color: black;
+}
+
