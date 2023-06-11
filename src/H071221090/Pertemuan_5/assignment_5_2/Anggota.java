@@ -1,4 +1,4 @@
-package H071221090.Pertemuan_5;
+package H071221090.Pertemuan_5.assignment_5_2;
 
 public class Anggota {
     private String nama;
