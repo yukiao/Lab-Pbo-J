@@ -1,0 +1,49 @@
+@startuml
+
+Moveable <-- Dog
+Dog <-- Pitbull
+Dog <-- SiberianHusky
+Dog <-- Bulldog
+Dog <-- GermanShepherd
+
+class Dog{
+    {static} # position : int
+    {static} # averageLength : int
+    + describe() : void
+} 
+class Pitbull{
+    + describe() : void
+}
+class SiberianHusky{
+    + describe() : void
+}
+class Bulldog{
+    + describe() : void
+}
+class GermanShepherd{
+    + describe() : void
+}
+
+
+Moveable <-- Smartphone
+Moveable <-- Car
+class Moveable{
+    + move() : void
+
+}
+
+class Smartphone{
+    {static} # price : int
+    {static} # brand : String
+    + move() : void
+
+}
+
+class Car{
+    {static} # totalForwardGear : int
+    {static} # color : String n
+    {static} # maxSpeed : int
+    + move() : void
+
+}
+@enduml
